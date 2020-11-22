@@ -1,0 +1,23 @@
+.sideBarChat {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 20px 2px;
+}
+.sideBarChat:hover {
+    background-color: dodgerblue;
+}
+.sidebarChat__message {
+    margin-left: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.sidebarChat__detail {
+    display: flex;
+    align-items: center;
+}
+.sidebarChat__detail > small {
+    margin-left: 10px;
+    color: gray;
+}

@@ -1,0 +1,41 @@
+.sideBar {
+    flex: 20%;
+    background-color: #f3f4f4;
+    height: 100vh;
+}
+.sideBar__head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.sideBar__head__image {
+    cursor: pointer;
+}
+.sideBar__input {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 30px;
+    background-color: rgb(233, 234, 235);
+    padding: 2px;
+    margin-top: 10px 20px;
+}
+.sideBar__input > input {
+    border: none;
+    outline: none;
+    flex: 2;
+    background-color: rgb(233, 234, 235);
+}
+.sideBar__searchIcon {
+    padding: 0.5rem 0;
+    background: #fafafa;
+    color: gray;
+    background-color: rgb(233, 234, 235);
+    border-radius: 100%;
+    margin: 0 0.5rem;
+}
+.sideBar__head_icons {
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
