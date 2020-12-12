@@ -40,6 +40,7 @@ function Chat(props) {
   }, [chatId]);
   function sendMessage(e) {
     e.preventDefault();
+
     db.collection("chats").doc(chatId).collection("messages").add({
       timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       message: input,

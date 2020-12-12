@@ -26,7 +26,10 @@ function App() {
       }
     });
   }, []);
+
   return <div className="App">{user ? <Messenger /> : <Login />}</div>;
+
 }
+
 
 export default App;
